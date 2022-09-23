@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+
+    <style>
+        *{
+            text-align: center;
+        }
+        h1, h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+        }
+        h1{
+            font-weight: 500;
+            font-size: 100px;
+            
+            text-shadow: 5px 5px #ff0000, 10px 10px #006eff;
+            color: #d9ff00;
+        }
+        body{
+            background: url("background-menu1.png") no-repeat center fixed;
+            background-size: cover;
+        }
+        .border{
+            width: 50%;
+            padding: 55px;
+            margin: auto;
+        }
+        div{
+            text-align: center;
+            margin: 3% auto;
+        }
+        button{
+            width: 282px;
+            height: 43px;
+            background-color: #48b5d6;
+            border-radius: 7px;
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        button:active{
+            background-color: #94def5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <audio id="select" src="select.wav"></audio> -->
+
+    <div class="border">
+        <h1>JET-FORCE</h1>
+    </div>
+
+
+    <div class="border">
+
+        <div>
+            <a href="JetForce.html"><button id="button">START</button></a>
+        </div>
+        <div>
+            <!-- <button onclick="character()">CHARACTER</button> -->
+        </div>
+
+    </div>
+
+    <!-- <script type="text/javascript">
+        document.getElementById("button").addEventListener("click", function(){
+            var audio = document.getElementById("select")
+            audio.play()
+        });
+    </script> -->
+
+</body>
+</html>
